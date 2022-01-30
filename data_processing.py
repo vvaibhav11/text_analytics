@@ -98,9 +98,9 @@ print(c2_ngram)
 comments['comment_nostop'] = c2_nostop
 comments['comment_stemming'] = c2_nostop
 comments['comment_lemmatize'] = c2_nostop
-comments['polarity'] = c2_lemmatized2['polarity']
-comments['comment_len'] = c2_lemmatized2['comment_len']
-comments['word_count'] = c2_lemmatized2['word_count']
+comments['polarity_lemmit'] = c2_lemmatized2['polarity']
+comments['word_count_lemmit'] = c2_lemmatized2['word_count']
+comments['comment_len_lemmit'] = c2_lemmatized2['comment_len']
 
 comments.to_csv('comments_v2.csv', index=False, na_rep='Unknown')
 
